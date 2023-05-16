@@ -17,17 +17,17 @@
 ## جزئیات پروژه
 اطلاعات جدول موجود به‌صورت زیر است:
 
-    نام ستون    	نوع	    تعریف
-    m_id	bigint AUTO_INCREMENT	آی‌دی شعبه
-    m_name	varchar(255)	نام شعبه
-    m_address	text	آدرس شعبه
-    p_id	bigint AUTO_INCREMENT	آی‌دی محصول
-    p_name	varchar(255)	نام محصول
-    p_weight	bigint	وزن محصول
-    price	bigint	قیمت محصول
-    level	int	سطح شعبه
-    m_score	bigint	امتیاز شعبه
-    capacity	bigint	ظرفیت تعداد محصول مربوط به سطح شعبه
+    نام ستون            نوع              تعریف
+    m_id    	bigint AUTO_INCREMENT	آی‌دی شعبه
+    m_name	    varchar(255)        	نام شعبه
+    m_address	text                	آدرس شعبه
+    p_id	    bigint AUTO_INCREMENT  	آی‌دی محصول
+    p_name  	varchar(255)	        نام محصول
+    p_weight	bigint	                وزن محصول
+    price	    bigint	                قیمت محصول
+    level   	int	                    سطح شعبه
+    m_score	    bigint	                امتیاز شعبه
+    capacity	bigint          	    ظرفیت تعداد محصول مربوط به سطح شعبه
 
 هم‌چنین توجه کنید که در جدول بالا m_id و p_id کلید هستند.
 
